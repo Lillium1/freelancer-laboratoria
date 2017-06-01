@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
 	<!-- TIPOGRAFIA -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	<!-- ICONO -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -13,12 +15,30 @@
 	<!-- Escribe tu código aquí -->
 	<header>
 		<div class="menu container">
-			<a href="#" class="text-uppercase logo">START BOOTSTRAP</a>
-			<a href="#" class="text-uppercase link">PORTAFOLIO</a>
-			<a href="#" class="text-uppercase link">ABOUT</a>
-			<a href="#" class="text-uppercase link">CONTACT</a>
+			<div class="logo">
+				<a href="#">START BOOTSTRAP</a>
+			</div>
+			<div class="lista-link">
+				<a href="#contact" class="link">CONTACT</a>
+				<a href="#about" class="link">ABOUT</a>
+				<a href="#portafolio" class="link">PORTAFOLIO</a>
+			</div>
 		</div>
 	</header>
+
+	<section id="portada">
+		<div class="container">
+			<div class="row">
+				<div class="col-12" id="start">
+					<img src="assets/images/profile.png" alt="foto-portada">
+					<h2 class="titulo">START BOOTSTRAP</h2>
+					<div class="linea-estrella">
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<h6>Web Developer - Graphic Artist - User Experience Designer</h6>
+				</div>
+			</div>
+	</section>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
