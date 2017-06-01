@@ -1,3 +1,63 @@
 /*
  * Estilos de tu proyecto
  */
+
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.link {
+  padding: 21px;
+  display: inline-block;
+  text-align: right;
+}
+
+.logo {
+
+  text-align: left;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+header {
+  position: fixed;
+  background: #212f3f;
+  width: 100%;
+  top:0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
