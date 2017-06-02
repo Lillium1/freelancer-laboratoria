@@ -167,7 +167,7 @@ header {
 	color: whitesmoke;
 	line-height: 150%;
 	text-align: left;
-	padding: 0 .5em;
+	padding: 0.5em;
 	font-size: 1.15em;
 	font-weight: 400;
 }
@@ -182,11 +182,71 @@ header {
 	cursor: pointer;
 }
 
+/********************** SECCION CONTACT ME ************************/
 
+#contact-me{
+	background-color: whitesmoke;
+	padding: 5em 10em 5em 10em;
+	text-align: center;
+}
 
+.titulo{
+	font-weight: 900;
+    font-size: 35px;
+}
 
+.linea-estrella-2{
+	background-color: #212f3f;
+	display: block;
+	width: 230px;
+	height: 5px;
+	margin: 1em auto;
+	margin-bottom: 40px;
+}
 
+.estrellita{
+	color: #212f3f;
+	text-align: center;
+	background-color: whitesmoke;
+	font-size: 30px;
+	margin: 1em auto;
+	position: relative;
+	top: -40px;
+	width: 40px;
+	height: 40px;
+}
 
+.formulario {
+    border-top: 1px solid rgba(117,114,108,0.5);
+    width: 100%;
+	padding: 0.5em;
+	text-align: left !important;
+}
+
+.formulario input {
+	border: none;
+	background: transparent;
+	font-size: 20px;
+}
+
+.formulario textarea {
+	height: 200px;
+	border: none;
+	background: transparent;
+	width: 100%;
+	font-size: 20px;
+}
+
+.btn-enviar {
+	border: none;
+	background-color: #18BC9C;
+	border-radius: 5px;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 10px;
+	cursor: pointer;
+	text-align: left !important;
+}
 
 
 
