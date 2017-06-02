@@ -248,5 +248,30 @@ header {
 	text-align: left !important;
 }
 
+/********************** FOOTER GRANDE ************************/
 
+#footer-gr{
+	background-color: #2b3844;
+	color: whitesmoke;
+	text-align: center;
+	line-height: 110%;
+	font-size: 15px;
+	padding: 1em;
+	font-weight: 400;
+}
 
+.col-4 p a {
+	color: #18BC9C;
+	background-color: none !important;
+}
+
+/********************** FOOTER ************************/
+
+footer {
+	background-color: #212f3f;
+	text-align: center;
+	height: 60px;
+	color: white;
+  	padding: 1em;
+  	font-size: 13px
+}
